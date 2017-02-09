@@ -15,11 +15,13 @@ Once Docker is installed, you can install docker-compose using your
 OS's package manager.
 
 On Debian/Ubuntu:
+
 ```sh
 apt-get install docker-compose
 ```
 
 On a Mac:
+
 ```sh
 brew install docker-compose
 ```
@@ -27,9 +29,11 @@ brew install docker-compose
 ## Running Clipper with Docker-Compose
 
 From within this directory (`$CLIPPER_ROOT/docker/`), run
+
 ```sh
 docker-compose up -d query_frontend
 ```
+
 to start the services. You can then interact with Clipper normally.
 
 > Note: You have to run the `docker-compose` commands from within this
@@ -57,6 +61,7 @@ a new application endpoint and start querying Clipper.
 ## Stopping Clipper with Docker-Compose
 
 To stop the Clipper containers, from within this directory run:
+
 ```sh
 docker-compose stop
 ```

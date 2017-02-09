@@ -59,12 +59,14 @@ in a variety of programming languages to support the rich ecosystem of data scie
 The easiest way to get started running Clipper is with Docker.
 
 Download the Clipper [`docker-compose.yml`](docker/docker-compose.yml) configuration and start Clipper:
+
 ```sh
 curl -O https://raw.githubusercontent.com/ucbrise/clipper/develop/docker/docker-compose.yml \
-       && docker-compose up -d query_frontend
+  && docker-compose up -d query_frontend
 ```
 
 Alternatively, if you've already cloned the repository, you can run:
+
 ```sh
 cd docker && docker-compose up -d query_frontend
 ```
@@ -82,6 +84,7 @@ For more information on running Clipper with Docker, check out the [Docker READM
 Development of Clipper is coordinated through GitHub.
 
 To get started, clone the repository including submodules:
+
 ```sh
 git clone --recursive https://github.com/ucbrise/clipper.git
 ```
@@ -112,6 +115,7 @@ __NOTE:__ Redis must be installed and on your path to run both the query REST fr
 You can test this with `redis-server --version`.
 
 For example:
+
 ```sh
 cd $CLIPPER_ROOT_DIR
 ./configure
