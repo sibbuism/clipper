@@ -36,7 +36,8 @@ versions of the tutorial.
 ## Running the tutorial
 
 To start the tutorial, start the Jupyter server in this directory (`examples/tutorial`)
-```
+
+```sh
 $ jupyter notebook
 ```
 and open the `tutorial_part_one.ipynb` notebook. The tutorial is self-guided
