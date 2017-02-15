@@ -1,2 +1,2 @@
 theme: jekyll-theme-dinky
-include: docker/README.md
+include: [docker/README.md]
