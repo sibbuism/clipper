@@ -56,4 +56,4 @@ The following is an example encoding:
 Once a data frame has been string encoded, we can pass it to the container via the `requests.post()` method and obtain batched predictions for each data frame row.
 
 This process is illustrated in the `predict_R_model()` method of 
-<clipper-root>/integration-tests/deploy_R_containers.py
+[R Model Integration Test](../../integration-tests/deploy_R_containers.py)
